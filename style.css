@@ -1,0 +1,52 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.client {
+    display: flex;
+    justify-content: space-between  ;
+    border: 2px solid #579EE0;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Roboto';
+    align-items: center;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.5)
+
+}
+
+.icon_button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #00CA54;
+    background-color: #00CA54;
+    color: white;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.5)
+}
+
+.edit {
+    font-weight: 100;
+    border-radius: 50%;
+    width: 30px;
+    background-color: #00CA54;
+    color: white;
+    height: 30px;
+    padding: 0px;
+    line-height: 1;
+    text-align: center;
+    align-content: center;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5)
+
+}
+
+.delete {
+    color: red;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.client:hover{
+    background-color: #579EE0;
+    color: white;
+    cursor: pointer;
+}

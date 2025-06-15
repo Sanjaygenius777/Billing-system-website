@@ -1,0 +1,45 @@
+body{
+  font-family: 'Roboto Condensed';
+  
+}
+
+img{
+  display: flex;
+  width: 40vw;
+  padding:0px 30px;;
+}
+
+.Login_Card{
+  display: flex;
+  background-color: #D9D9D952;
+  border: 2px solid black;
+  border-radius: 40px;
+  width: 40vw;
+  text-align: center;
+  justify-content: center;
+  align-items:center;
+  margin: 0px 10%;
+}
+
+label{
+  text-align: right;
+}
+
+button{
+  background-color: #F04C4C;
+  border: none;
+  color: white;
+  padding: 7px 15px;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 2px 4px 6px 0px #00000052;
+}
+
+button:hover{
+  border: 1px solid black;
+}
+
+div{
+  display: flex;
+  justify-content: space-between;
+}
